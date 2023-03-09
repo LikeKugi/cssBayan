@@ -1,0 +1,27 @@
+.footer {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--gray-light);
+    font-size: 1.5rem;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item:not(:last-of-type) {
+    border-right: 1px solid var(--gray);
+}
+
+.nav__link {
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    outline: 1px solid var(--gray-dark);
+}
+
+.nav__link:active,
+.nav__link:focus {
+    outline: 2px solid var(--gray-dark);
+}
