@@ -6,12 +6,26 @@
     border-top: 2px solid var(--gray);
 }
 
+.accordion__item:hover .accordion__label {
+    color: black;
+}
+
+.accordion__item:hover .accordion__label .content {
+    transition: display 1s;
+    display: block;
+}
+
+.accordion__item:hover .accordion__label .accordion__cross {
+    transition: transform 0.2s;
+    transform: rotate(0deg);
+}
+
 .accordion__item * {
     cursor: pointer;
 }
 
 .accordion__content {
-    transition: display 0.3s;
+    transition: display 1s;
     display: none;
 }
 
