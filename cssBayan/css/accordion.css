@@ -3,7 +3,7 @@
 }
 
 .accordion__item {
-    border-top: 2px solid gray;
+    border-top: 2px solid var(--gray);
 }
 
 .accordion__item * {
@@ -25,6 +25,7 @@
 .accordion__header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1.1rem;
 }
 
 .accordion__title {
@@ -73,4 +74,5 @@
 
 .content__img {
     max-height: 80vh;
+    max-width: 100%;
 }
