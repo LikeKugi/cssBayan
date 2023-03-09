@@ -1,0 +1,11 @@
+@media (max-width: var(--width-tablet)) {
+    :root {
+        --base-size: 8px;
+    }
+}
+
+@media (max-width: var(--width-mobile)) {
+    :root {
+        --base-size: 5px;
+    }
+}
