@@ -1,0 +1,43 @@
+:root {
+    --black: #212121;
+    --white: #fefefe;
+    --gray: #b2beb5;
+    --gray-light: #e5e4e2;
+    --gray-dark: #232023;
+    --blue: #4e97d1;
+    --width-desktop: 75rem;
+    --width-tablet: 51rem;
+    --width-mobile: 20rem;
+    --padding-container: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--black);
+    font-size: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: var(--width-desktop);
+    margin: 0 auto;
+    padding: 0 var(--padding-container);
+}
