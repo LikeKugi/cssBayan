@@ -36,6 +36,14 @@
     transition: color ease-in 0.3s;
 }
 
+.accordion__label:active .accordion__title {
+    color: var(--blue);
+}
+
+.accordion__label:active .content__img {
+    filter: contrast(30%);
+}
+
 .accordion__header {
     display: flex;
     justify-content: space-between;
